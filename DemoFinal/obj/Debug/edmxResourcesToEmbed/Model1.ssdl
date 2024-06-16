@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище DemoFinalModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ElectronicType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="nvarchar" MaxLength="200" />
+    <Property Name="ElectronicTypeId" Type="int" Nullable="false" />
+    <Property Name="ElectronicModel" Type="nvarchar" MaxLength="200" />
+    <Property Name="ProblemDescription" Type="nvarchar" MaxLength="400" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="400" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="OrderStatus" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="MasterDescription" Type="nvarchar" MaxLength="400" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="200" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="200" />
+    <Property Name="Login" Type="nchar" MaxLength="10" />
+    <Property Name="Type" Type="nchar" MaxLength="10" />
+    <Property Name="Password" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <Association Name="FK_Orders_ElectronicType">
+    <End Role="ElectronicType" Type="Self.ElectronicType" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ElectronicType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="ElectronicTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище DemoFinalModelContainer">
+    <EntitySet Name="ElectronicType" EntityType="Self.ElectronicType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Orders_ElectronicType" Association="Self.FK_Orders_ElectronicType">
+      <End Role="ElectronicType" EntitySet="ElectronicType" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

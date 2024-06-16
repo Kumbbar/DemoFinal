@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4680D018-788D-4D92-9DD8-28D7D7108C4D}|UnitTestProject1\\UnitTestProject1.csproj|c:\\users\\kumbar\\source\\repos\\demofinal\\unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4680D018-788D-4D92-9DD8-28D7D7108C4D}|UnitTestProject1\\UnitTestProject1.csproj|solutionrelative:unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|c:\\users\\kumbar\\source\\repos\\demofinal\\demofinal\\views\\editcreateorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\views\\editcreateorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\views\\editcreateorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\views\\editcreateorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\electronictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\electronictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\database\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\database\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\demofinal\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{29625CC3-BF81-475A-9351-AC080ABF0252}|DemoFinal\\DemoFinal.csproj|solutionrelative:demofinal\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\UnitTestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTestProject1\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\UnitTestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTestProject1\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T12:15:33.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditCreateOrder.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\EditCreateOrder.xaml.cs",
+              "RelativeDocumentMoniker": "DemoFinal\\Views\\EditCreateOrder.xaml.cs",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\EditCreateOrder.xaml.cs",
+              "RelativeToolTip": "DemoFinal\\Views\\EditCreateOrder.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAUwCgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T10:25:08.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "DemoFinal\\Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "DemoFinal\\Views\\Login.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T10:01:04.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DemoFinal\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DemoFinal\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:45:38.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditCreateOrder.xaml",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\EditCreateOrder.xaml",
+              "RelativeDocumentMoniker": "DemoFinal\\Views\\EditCreateOrder.xaml",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\EditCreateOrder.xaml",
+              "RelativeToolTip": "DemoFinal\\Views\\EditCreateOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-14T09:20:56.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "DemoFinal\\Views\\Login.xaml",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\Login.xaml",
+              "RelativeToolTip": "DemoFinal\\Views\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-14T09:44:56.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ElectronicType.cs",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\ElectronicType.cs",
+              "RelativeDocumentMoniker": "DemoFinal\\ElectronicType.cs",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\ElectronicType.cs",
+              "RelativeToolTip": "DemoFinal\\ElectronicType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:38:53.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Orders.cs",
+              "RelativeDocumentMoniker": "DemoFinal\\Orders.cs",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Orders.cs",
+              "RelativeToolTip": "DemoFinal\\Orders.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:29:42.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DemoFinal\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "DemoFinal\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T12:25:35.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\App.xaml",
+              "RelativeDocumentMoniker": "DemoFinal\\App.xaml",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\App.xaml",
+              "RelativeToolTip": "DemoFinal\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T12:24:55.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Requests.cs",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Database\\Requests.cs",
+              "RelativeDocumentMoniker": "DemoFinal\\Database\\Requests.cs",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Database\\Requests.cs",
+              "RelativeToolTip": "DemoFinal\\Database\\Requests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:32:31.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Model1.edmx",
+              "RelativeDocumentMoniker": "DemoFinal\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Kumbar\\source\\repos\\DemoFinal\\DemoFinal\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "DemoFinal\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-13T12:22:11.935Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

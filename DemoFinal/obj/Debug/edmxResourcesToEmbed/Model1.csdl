@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DemoFinalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ElectronicType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_ElectronicType" FromRole="ElectronicType" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ElectronicTypeId" Type="Int32" Nullable="false" />
+    <Property Name="ElectronicModel" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ProblemDescription" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="FIO" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OrderStatus" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MasterDescription" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ElectronicType" Relationship="Self.FK_Orders_ElectronicType" FromRole="Orders" ToRole="ElectronicType" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Login" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Type" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Orders_ElectronicType">
+    <End Role="ElectronicType" Type="Self.ElectronicType" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ElectronicType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="ElectronicTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DemoFinalEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ElectronicType" EntityType="Self.ElectronicType" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Orders_ElectronicType" Association="Self.FK_Orders_ElectronicType">
+      <End Role="ElectronicType" EntitySet="ElectronicType" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
